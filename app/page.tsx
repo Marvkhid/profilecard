@@ -17,7 +17,7 @@ const ProfileCard = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 overflow-hidden">
       <div className="bg-white p-8 rounded-xl shadow-xl w-80 sm:w-96 lg:w-[400px] xl:w-[450px] text-center hover:shadow-2xl transition-shadow duration-300">
         <img
           src="/ankara.jpg" 
